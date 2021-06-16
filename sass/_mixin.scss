@@ -1,0 +1,10 @@
+@mixin margin-bottom(){
+    margin-bottom: 80px;
+}
+@mixin sec-heading() {
+    text-align: center;
+        color: $primary;
+        text-transform: capitalize;
+        padding-bottom: 30px;
+        font-weight: bold; 
+}

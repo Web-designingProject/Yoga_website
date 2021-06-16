@@ -1,0 +1,66 @@
+.sectionHeading{
+    @include sec-heading();
+     
+ }
+.sec_2{
+    @include margin-bottom();
+     
+    
+    .squ-box{
+        padding: 10px;
+        margin-bottom: 10px;
+        background: #dde1e7;
+        border-radius: 5px;
+        box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgb(94 104 121 / 29%);
+        img{
+            display: block;
+            margin: auto;
+        }
+        h4{
+            text-align: center;
+            font-size: 15px;
+            text-transform: capitalize;
+            margin-top: 10px;
+        }
+    }
+
+.yoga-woman{
+    position: relative;z-index: 1;
+    
+    .woman{
+        transform: scale(1.6);
+        display: block;
+        margin: auto;
+    }
+    
+    .box-zoom{
+        animation: 1.3s ease-out 75ms normal none 1 running fusionSonarEffect;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15px;
+    animation-iteration-count: infinite;
+    z-index: -1;
+    opacity: .8;
+    }
+    @keyframes fusionSonarEffect{
+        0%{opacity:.3}
+        40%{opacity:.5}
+        100%{opacity:0;
+        transform:scale(1.5)}
+        }
+    @keyframes fusionSonarEffect{
+        0%{opacity:.3}
+        40%{opacity:.5}
+        100%{opacity:0;transform:scale(15)}
+    }
+}
+}
+.countfect { 
+    font-family: 'Archivo Black'; 
+    font-size: 2.5rem; 
+    /* more styles here */
+  }

@@ -1,0 +1,49 @@
+.counter_sec{
+    background: #16212f url(../img/flower.jpg)no-repeat ;
+   
+    @include margin-bottom();
+    color: #fff;
+    h2{
+        padding-top: 30px;
+        position: relative;
+    img{
+        position: absolute;
+        left: 215px;
+    }
+    }
+    .glassmorphism{
+    
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    border-left: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 20px;
+    margin-bottom: 30px;
+
+    .divider{
+    
+    &::after{
+        content: "";
+        position: absolute;
+        border-width: 1px 0;
+        border-style: dashed solid solid;
+        height: 5px;
+        width: 89%;
+        display: block;
+        margin: 16px 0;
+    }
+    }
+    .button{
+        margin-top: 25px;
+    }
+    }
+    #counters_1 {
+        i{font-size: 40px;margin-right: 10px;
+            width: 62.5px;}
+        div{display: inline-block;font-size: 40px;}
+    }
+
+   
+}

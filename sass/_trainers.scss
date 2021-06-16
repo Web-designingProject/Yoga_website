@@ -1,0 +1,15 @@
+.trainer_div{
+   .trainer_column{
+       position:relative;
+       width: 100%;
+       min-height: 100vh;
+
+       .box{
+           position: absolute;
+            max-width: 700px;
+           img{
+               max-width: 100%;
+           }
+       }
+   }
+}
